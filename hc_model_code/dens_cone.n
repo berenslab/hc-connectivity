@@ -1,0 +1,32 @@
+# Default membrane properties (density) file
+#
+# Densities of currents for the cell's different regions (S/cm2). */
+#
+#       dend dend_prox dend_dist soma  hillock  thin   axon   axon_dist node  varicos */
+#
+# Name  R1      R2      R3        R4      R5       R6      R7      R8     R9     R10
+#
+0       DENDD   DENDP   SOMA    HILLOCK  AXONT   AXON    AXOND   VARIC   R9     R10
+#
+_NA     0e-3    0e-3	0e-3	0e-3	0e-3	0e-3	0e-3    0e-3    0e-3   0e-3   # Na 
+_NA5    0e-3    0e-3    0e-3    0e-3 	0e-3   	0e-3    0e-3  	0e-3    0e-3   0e-3   # Na5
+_NA6    0e-3	0e-3  	0e-3 	0e-3    0e-3	0e-3	0e-3	0e-3    0e-3   0e-3   # Na6
+_NA8    0e-3	0e-3  	0e-3 	0e-3    0e-3	0e-3	0e-3	0e-3    0e-3   0e-3   # Na8
+_KDR    0e-3	0e-3	0e-3    0e-3    0e-3	0e-3	0e-3    0e-3    0e-3   0e-3   # Kdr
+_KA     0e-3 	0e-3	0e-3	0e-3	0e-3	0e-3	0e-3 	0e-3    0e-3   0e-3   # KA
+_KH     0e-3	0e-3	0e-3    0e-3	0e-3	0e-3	0e-3	0e-3    0e-3   0e-3   # KIh
+_KIR    0e-3	0e-3	0e-3    0e-3	0e-3	0e-3	0e-3	0e-3    0e-3   0e-3   # Khz
+_SKCA1  0e-3    0e-3  	0e-3	0e-3    0e-3    0e-3	0e-3	0e-3    0e-3   0e-3   # sKCa1
+_SKCA2  0e-3    0e-3  	0e-3	0e-3    0e-3	0e-3	0e-3	0e-3    0e-3   0e-3   # sKCa2
+_BKCA   0e-3	0e-6	0e-3	0e-3	0e-6	0e-6	0e-6	0e-6    0e-3   0e-3   # bKCa
+_CLCA   0e-3    0e-3	0e-3	0e-3    0e-3	0e-3    5.0e-3	0.0e-1  0e-3   0e-3   # ClCa 
+_CLCAC  0e-3    0e-3	0e-3	0e-3    0e-3	0e-3    5.0e-3	0.0e-1  0e-3   0e-3   # ClCaC
+_CA_L   0e-3    0e-3	0e-3	0e-3    0e-3	0e-3    0.08e-3	0e-3	0e-3   0e-3   # Ca 
+_CA_T   0e-3    0e-3	0e-3	0e-3    0e-3	0e-3    0.00e-3	0e-3    0e-3   0e-3   # Ca5
+_CAP    0e-7    0e-3    0e-3 	0e-3    0e-3	0e-2	2e-7    0e-7    0e-3   0e-3   # CAPUMP
+_CAPK    0e-7    0e-3    0e-3 	0e-3    0e-3	0e-2	5e-6    0e-7    0e-3   0e-3   # CA PKm
+_CAE    0e-7    0e-3    0e-3 	0e-3    0e-3	0e-2	0.00e-9 0e-9    0e-3   0e-3   # Caexch
+_VST    dvsc    dvsc    dvsc    dvsc    dvsc    dvsc	dvsc    dvsc    dvsc   dvsc   # vstart
+_VRV    vk      vk      vk   	vk      vk      vk      vk      vk      vk     vk     # vrev
+_RM     dcrm    dcrm    dcrm  	dcrm    dcrm    dcrm    dcrm    dcrm    dcrm   dcrm   # Rm
+_CM     dcm     dcm     dcm  	dcm     dcm     dcm     dcm     dcm     dcm    dcm    # Cm
